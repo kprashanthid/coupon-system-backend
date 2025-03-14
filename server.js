@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://coupon-app-frontend-pied.vercel.app/",
+    origin: "https://coupon-app-frontend-pied.vercel.app",
     credentials: true,
   })
 );
